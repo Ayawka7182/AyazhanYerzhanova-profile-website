@@ -87,7 +87,7 @@
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
           <div class="contact-info">
             <h1>Address</h1>
-            <h2>Almaty, st.Baytursynova 20</h2>
+            <h2>Almaty, st.Gogol' 150</h2>
           </div>
         </div>
       </div>
