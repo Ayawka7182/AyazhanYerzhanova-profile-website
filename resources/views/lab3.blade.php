@@ -18,8 +18,6 @@
           <div class="hamburger"><div class="bar"></div></div>
           <ul>
             <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Service">Services</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
           </ul>
@@ -43,100 +41,9 @@
   </section>
   <!-- End Hero Section  -->
 
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!</p>
-      </div>
-      <div class="service-bottom">
-        <div class="service-item">
-          
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
-        </div>
-        <div class="service-item">
-          
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
-        </div>
-        <div class="service-item">
-          
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
-        </div>
-        <div class="service-item">
-          
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Service Section -->
+  
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 1</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-           
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 2</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 3</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 4</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 5</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Projects Section -->
+ 
 
   <!-- About Section -->
   <section id="about">
