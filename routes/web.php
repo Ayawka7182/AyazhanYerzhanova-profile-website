@@ -22,19 +22,8 @@ Route::get('/', function () {
 });
 Route::get('client/add', function () {
     DB::table('clients')->insert([
-        'name'=> 'Ayazhan',
-        'surname'=> 'Yerzhanova',
+        'name'=>'Aya',
+        'surname'=>'Yerzhanova',
         'age'=> 19
     ]);
 });
-Route::get('client', function () {
-   $client = Client::find(1);
-   return $client->age;
-});
-Route::get('post/create', function () {
-    DB::table('posts')->insert([
-        'tutle'=> '///',
-        'body'=> '///',
-    ]);  
-});
-
