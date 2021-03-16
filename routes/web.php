@@ -7,6 +7,8 @@ use App\Models\Client;
 use App\Models\Post;
 
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,15 +23,9 @@ use App\Models\Post;
 Route::get('/', function () {
     return view('lab3');
 });
-Route::get('client/add', function () {
-    DB::table('clients')->insert([
-        'name'=>'Aya',
-        'surname'=>'Yerzhanova',
-        'age'=> 19
+Route::get('post/create', function () {
+    DB::table('post')->insert([
+        'title'=>'Hello',
+        'body'=>'XD'
     ]);
-});
-
-Route::get('client', function () {
-    $client = Client::find(1);
-    return $client;
 });
