@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 
 use App\Models\Client;
+use App\Models\Post;
 
 
 /*
@@ -26,4 +27,19 @@ Route::get('client/add', function () {
         'surname'=>'Yerzhanova',
         'age'=> 19
     ]);
+});
+
+Route::get('client', function () {
+    $client = Client::find(1);
+    return $client;
+});
+Route::get('/post/create', function () {
+    DB::table('postss')->insert([
+        'title'=>'Aya',
+        'body'=>'Yerzhanova'
+    ]);
+});
+Route::get('post', function () {
+    $client = post::find(1);
+    return $post;
 });
