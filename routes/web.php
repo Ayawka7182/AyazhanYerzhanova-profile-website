@@ -33,13 +33,3 @@ Route::get('client', function () {
     $client = Client::find(1);
     return $client;
 });
-Route::get('/post/create', function () {
-    DB::table('postss')->insert([
-        'title'=>'Aya',
-        'body'=>'Yerzhanova'
-    ]);
-});
-Route::get('post', function () {
-    $client = post::find(1);
-    return $post;
-});
