@@ -1,10 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\DB;
-
-use App\Models\Client;
-use App\Models\Post;
 
 
 
@@ -21,11 +17,11 @@ use App\Models\Post;
 */
 
 Route::get('/', function () {
-    return view('lab3');
+    return view('home');
 });
-Route::get('post/create', function () {
-    DB::table('post')->insert([
-        'title'=>'Hello',
-        'body'=>'XD'
-    ]);
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/contact', function () {
+    return view('contact');
 });
