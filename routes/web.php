@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\DB;
 
 use App\Models\Post;
 
+use App\Http\Controllers\BlogController;
 
 
 
@@ -35,7 +36,4 @@ Route::get('/post/create', function() {
         'body' => 'bye'
     ]);
 });
-Route::get('post', function() {
-    $post = Post::find(1);
-    return $post;
-});
+Route::get('post', [BlogController::class, 'index']);
