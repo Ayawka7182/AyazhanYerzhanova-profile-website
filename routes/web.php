@@ -41,3 +41,5 @@ Route::get('post/create', function(){
     return view('post.create');
 });
 Route::post('post/create', [BlogController::class, 'store'])->name('add-client');
+
+Route::get('post/{id}', [BlogController:: class, 'get_post']);
